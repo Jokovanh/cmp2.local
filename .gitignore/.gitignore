@@ -1,0 +1,6 @@
+echo "# cmp2.local" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Jokovanh/cmp2.local.git
+git push -u origin master
