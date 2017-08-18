@@ -1,0 +1,315 @@
+/*
+Theme Name: Back to bike
+Author: Joko Van Heertum
+Description: This theme was made in 2017. this a a theme that is made for the Back to Bike company.
+Version: 2.0
+
+*/
+
+ body {
+     font-family: tahoma, sans-serif;
+     font-size: 14px;
+     color:black;
+ }
+
+ div.title{
+     color: black;
+     text-decoration: none;
+
+     font-family: Tahoma;
+     font-size: 17px;
+ }
+div.react{
+    color: orange;
+    font-size: 15px;
+    padding-bottom: 20px;
+    float: right;
+}
+a:link,
+a:visited{
+    color: #3F464E;
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+}
+div.edit{
+    color: grey;
+    font-size: 15px;
+    font-family: tahoma;
+  
+}
+ p {
+     line-height: 1.65em;
+    
+     
+ }
+
+ /* general layout */
+
+ div.container {
+     max-width: 980px;
+     margin: 0 auto;
+    align-content: left;
+   
+
+ }
+
+
+
+/* Header */
+
+.site-header1 {
+    margin-top: 30px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+   
+}
+
+/* Footer */
+
+.site-footer {
+    margin-top: 30px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+.site-footer nav ul li a:link{
+    display: ruby-text;
+    font-size: 20px;
+    padding-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 15px;
+    
+}
+.site-footer nav ul li a:visited{
+    display: ruby-text;
+    font-size: 20px;
+    padding-top: 20px;
+    color: black; 
+    text-decoration: underline;
+    
+}
+
+.site-footer nav ul li a:hover{
+    
+   
+    color: orange;
+    font-size: 18px;
+}
+
+/* Navigatie*/
+
+.site-nav ul {
+    margin: 3px;
+    padding: 0;
+}
+
+.site-nav ul:before, .site-nav ul:after {content:"";display:table;}
+.site-nav ul:after {clear: both;}
+.site-nav ul {*zoom: 1}
+.site-nav ul li{
+    list-style: none;
+    float: left;
+    margin-inline-end: 45px;
+  
+}
+
+/* site header menu */
+
+.site-header nav ul li a:link{
+    display: ruby-text;
+    font-size: 20px;
+    padding-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: American Captain;
+    font-size: 35px;
+    
+}
+.site-header nav ul li a:visited{
+    display: ruby-text;
+    font-size: 20px;
+    padding-top: 20px;
+    color: black; 
+    text-decoration: underline;
+    
+}
+
+.site-header nav ul li a:hover{
+    
+   
+    color: orange;
+    font-size: 40px;
+    
+}
+
+.site-header img{
+    float: center;
+}
+
+div.logo {
+
+    float: left;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+ 
+
+/* Page Layout */
+article.page h2 {
+    font-size: 250%;
+}
+
+/*Info Box*/
+div.info-box{
+    width: 30%;
+    float: right;
+    margin: 0 0 20px 20px;
+    padding: 13px;
+    background-color:lightgray;
+}
+
+div.info-box h4{
+    margin-bottom: 6px;
+    color: #E98000;
+}
+
+div.info-box p{
+    font-size: 80%;
+}
+div.info-box1 {
+    width: 25%;
+    float: right;
+    margin: 5px 5px 5px 5px;
+   padding-inline-start: 15px;
+   padding-bottom: 15px;
+    text-align: left;
+    background-color:#FFDA95;
+}
+    
+div.disclaimer {
+    padding-bottom: 56px;
+
+  }  
+div.single{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+div.singleside{
+    padding-top: 30px;
+}
+div.email{
+    margin-top: 15px;
+}
+
+div.info-box1 h4{
+    color: black;
+
+    text-align: left;
+}
+
+article.about img {
+   
+   
+    width: 150px;
+    float: left;
+    padding: 20px;
+    padding-top: 0px;
+    padding-left: 0px;
+  
+}
+
+div.post-bikes{
+    color: red;
+}
+/*search*/
+ div.hd-search {
+     float: right;
+     padding-top: 30px;
+ }
+
+ div.hd-search label {
+     position: absolute;
+     left: -9999px;
+ }
+
+ div.hd-search #searchsubmit {
+     background-color: orange;
+     color: #FFF;
+     padding: 5px 14px;
+     border: none;
+     vertical-align: top;
+ }
+
+ div.hd-search #s{
+     vertical-align: top;
+     padding: 2px 0;
+ }
+
+
+
+
+/*images*/
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+ .has-thumbnail{
+     position: relative;
+     padding-left: 200px;
+ }
+
+.post-thumbnail{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+
+
+
+
+#sidebar {
+    float: right;
+    padding-right: 0;
+    padding-top: 13px;
+    padding-left: 76px;
+    padding-bottom: 50px;
+    
+   
+   
+    
+}
+
+#sidebar h4{
+    text-align: left;
+}
+
+
+div.about {
+    padding-bottom: 75px;
+}
+
+
+div.wrong h1{
+    text-align: center;
+    color: orange;
+
+}
+
+div.wrong h3,h4{
+    color: black;
+    text-align: center;
+}
+
+div.wrong {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
